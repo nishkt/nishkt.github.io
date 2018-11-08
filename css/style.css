@@ -1,3 +1,8 @@
-/*h1{
-	text-align: center;
-}*/
+#intro{
+	background-image: url("/img/nishant-lacaverne.jpg");
+	/*background-image: linear-gradient(red, yellow, green);*/
+	background-repeat: no-repeat;
+	/*background-color: #cccccc;
+	background-position: center;
+	background-size: cover;*/
+}
