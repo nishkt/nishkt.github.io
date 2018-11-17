@@ -1,8 +1,38 @@
-#intro{
-	background-image: url("/img/nishant-lacaverne.jpg");
-	/*background-image: linear-gradient(red, yellow, green);*/
-	background-repeat: no-repeat;
-	/*background-color: #cccccc;
-	background-position: center;
-	background-size: cover;*/
+.container-fluid {
+	padding-top: 140px;
+	padding-bottom: 140px;
+}
+
+.bg-1 { 
+	background-color: #041417; /* light blue */
+	color: #FFFFFF;
+
+}
+
+.footer-style, .nav-style {
+	background-color: #9AEEFA; /* light blue */
+	color: #000000;
+}
+
+.footer-style a {
+	color: #395F66;
+	text-decoration: underline;
+}
+
+.navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	letter-spacing: 5px;
+}
+
+.navbar-nav li a:visited, .navbar-brand:visited{
+	color: #000000;
+}
+
+.navbar-nav li a:hover, .navbar-brand:hover{
+	font-weight: bold !important;
 }
