@@ -40,6 +40,7 @@
 
 .navbar-nav li a:hover, .navbar-brand:hover, .navbar-nav li span:hover{
 	font-weight: bold !important;
+	cursor: pointer;
 }
 
 #aboutMe .container-fluid {
