@@ -25,30 +25,75 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span> 
 				</button>
-				<a class="navbar-brand" href="#">Home</a>
+				<a class="navbar-brand" href="#" onclick="show('home');">Home</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">About Me</a></li>
-					<li><a href="#">Portfolio</a></li> 
+					<li><a href="#" onclick="show('aboutMe');">About Me</a></li>
+					<li><a href="#" onclick="show('portfolio');">Portfolio</a></li> 
 					<li><a href="#">Blog</a></li>
 					<li><a href="#">Contact Me</a></li>
-					<li><a href="https://github.com/nishkt" data-toggle="tooltip" title="Click here to access my Github page"><span class="fa fa-github"></span></a></li>
-					<li><a href="https://www.linkedin.com/in/nishkt/" data-toggle="tooltip" title="Click here to access my LinkedIn page"><span class="fa fa-linkedin"></span></a></li>
+					<li><a href="https://github.com/nishkt" data-toggle="tooltip" title="Click here to access my Github page"><span class="fa fa-github fa-lg"></span></a></li>
+					<li><a href="https://www.linkedin.com/in/nishkt/" data-toggle="tooltip" title="Click here to access my LinkedIn page"><span class="fa fa-linkedin fa-lg	"></span></a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
 	<article>
-		<section>
-			<div class = "container-fluid bg-1 text-center">
-				<h1>Hello Everyone!</h1>
-				<p>
-				My name is Nishant Teckchandani and I am a Software Developer.
-				</p>
-			</div>
-		</section>
+		<div id="home" class="page" style="">
+			<section>
+				<div class = "container-fluid bg-1 text-center">
+					<h1>Hello Everyone!</h1>
+					<p>
+					My name is Nishant Teckchandani and I am a Software Developer.
+					</p>
+				</div>
+			</section>
+		</div>
+		<div id="aboutMe" class="page" style="display:none">
+			<section>
+				<div class = "container-fluid bg-1 text-center">
+					<div class = "col-sm-4 text-center">
+						<img src="img/nishant-presentation.jpg" class="img-responsive img-circle img-center">
+					</div>
+					<div id = "aboutMePara" class="col-sm-4 text-center">
+						<p>
+							My name is Nishant Teckchandani and I am a Software Developer. I speak English, Japanese, Hindi, and a little French. I prefer to write code in Javascript or Python, but I usually choose the programming language based on the task at hand. Other than coding, I play basketball , watch anime, read, and explore areas around me. Check out the blog section, as I like to write my thoughts out. Contact me if you have any questions.
+						</p>	
+					</div>
+					<div class = "col-sm-4 text-center">
+						<img src="img/nishant-dp.jpg" class="img-responsive img-circle img-center">
+					</div>
+				</div>
+			</section>
+		</div>
+		
+		<div id="portfolio" class="page" style="display:none">
+			<section>
+				<div class="container-fluid bg-1 text-center">    
+					<h3>Some of my Work</h3>
+					<div class="row">
+						<div class="col-sm-3">
+							<p>Some text..</p>
+							<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+						</div>
+						<div class="col-sm-3"> 
+							<p>Some text..</p>
+							<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+						</div>
+						<div class="col-sm-3"> 
+							<p>Some text..</p>
+							<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+						</div>
+						<div class="col-sm-3">
+							<p>Some text..</p>
+							<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
 	</article>
 
 	<footer class="container-fluid text-center footer-style">
@@ -62,6 +107,8 @@
 		$('[data-toggle="tooltip"]').tooltip(); 
 	});
 	</script>
+	<!-- Call scripts from JS folder -->
+	<script src="js\script1.js"></script>
 	<!-- jQuery first, then Bootstrap JS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
