@@ -10,7 +10,6 @@
 .bg-1 { 
 	background-color: #041417; /* light blue */
 	color: #FFFFFF;
-
 }
 
 .footer-style, .nav-style {
@@ -43,9 +42,9 @@
 	cursor: pointer;
 }
 
-#aboutMe .container-fluid {
+#aboutMe .container-fluid, #portfolio .container-fluid{
 	padding-top: 1%;
-	padding-bottom: 0;
+	padding-bottom: 5%;
 }
 
 #aboutMe .img-responsive {
